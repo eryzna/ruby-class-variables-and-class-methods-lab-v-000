@@ -7,7 +7,7 @@ class Song
     @genre=genre
     @@count +=1
   end
-  def count
+  def count(count)
     @@count
   end
 end

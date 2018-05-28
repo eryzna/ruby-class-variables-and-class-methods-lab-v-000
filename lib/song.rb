@@ -43,4 +43,4 @@ class Song
     artist_count
   end
 end
-#Confused as to the inherent value of keys. When adding keys to an empty hash, the value is an integer? How to change the value?
+#Confused as to the inherent value of keys. When adding keys to an empty hash, the value is an integer? How to change the value, e.g., to a string?

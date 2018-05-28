@@ -15,5 +15,6 @@ class Song
     @@count
   end
   def self.artists
-    @@artists.each {|art|}
+    @@artists.each {|art|.delete_if @@artist.include? art}
+  end
 end

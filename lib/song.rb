@@ -15,8 +15,7 @@ class Song
     @@count
   end
   def self.artists
-    @@artists.each do |art|
-      art.uniq!
+    @@artists.uniq
     end
   end
 end

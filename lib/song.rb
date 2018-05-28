@@ -22,7 +22,7 @@ class Song
   end
   def self.genre_count
     genre_count={}
-    @@genres.each do |gen|
+    @@genres.each do |gen| #iterating over @@genre array and storing elements in gen variable(key); how are gen values added to genre_count hash?
       if genre_count[gen] #if genre hash at gen key exists, increase gen value by one
         genre_count[gen]+=1
       else
